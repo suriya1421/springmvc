@@ -1,0 +1,11 @@
+package exceptions;
+
+public class Demotrace {
+	public static void m1() {
+		try {
+			m2();
+			
+		}
+	}
+
+}

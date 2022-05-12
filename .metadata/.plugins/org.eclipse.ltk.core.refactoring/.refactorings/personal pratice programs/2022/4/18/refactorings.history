@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;OperationsInIo&apos; to &apos;FileInputOutputStreams&apos;&#x0D;&#x0A;- Original project: &apos;personal pratice programs&apos;&#x0D;&#x0A;- Original element: &apos;OperationsInIo&apos;&#x0D;&#x0A;- Renamed element: &apos;FileInputOutputStreams&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;OperationsInIo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{OperationsInIo.java[OperationsInIo" matchStrategy="1" name="FileInputOutputStreams" qualified="false" references="true" similarDeclarations="false" stamp="1651141592873" textual="false" version="1.0"/>
+</session>
