@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename package &apos;co.chainsys.jdbc&apos; to &apos;com.chainsys.jdbc&apos;&#x0D;&#x0A;- Original project: &apos;JDBC_D&apos;&#x0D;&#x0A;- Original element: &apos;JDBC_D/src/co.chainsys.jdbc&apos;&#x0D;&#x0A;- Renamed element: &apos;JDBC_D/src/com.chainsys.jdbc&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;co.chainsys.jdbc&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;co.chainsys.jdbc" name="com.chainsys.jdbc" qualified="false" references="true" stamp="1651637628700" textual="false" version="1.0"/>
-</session>
