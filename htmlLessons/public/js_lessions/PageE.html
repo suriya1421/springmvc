@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Script</title>
+</head>
+<body>
+<script type="text/javascript">
+let x = 5;
+console.log(x);
+/*
+ * We Started june 2022 with a party. &lt/script&gt
+ * We had Cake,Samosa and Coke for Birthday party.
+ * When the browser parser sees the script end tag (&lt/script&gt) javascript will break.
+ * All texts from the tag forward will be processed as HTML.
+ * To avoid this , avoid using end script tag (&lt/script&gt) anywhere in the javascript.
+ * '</scr'+'ipt>'
+ */
+ document.writeln('</scr'+'ipt>');
+</script>
+<script>
+/*
+ *  InterPolation using javascript variable inside HTML content.
+ *  The HTML content must be surrounded with tick.
+ *  The javascript variable or statements must be defined inside dollar {} (${})
+ */
+document.writeln('<p> The Value of  X  is  ${x} <p>');
+</script>
+</body>
+</html>

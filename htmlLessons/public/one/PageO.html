@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>SELECTORS</title>
+<style>
+.green {
+    background-color: green
+}
+
+li.yellow {
+    background-color: yellow;
+    
+}
+</style>
+</head>
+<body>
+    <div id='div1'>
+        <ol>
+            <li>vimal</li>
+        </ol>
+        <ul>
+            <li>dhoni</li>
+            <li>virat</li>
+            <li>kerala</li>
+            <li class='green'>suriya</li>
+            <li>fish</li>
+
+        </ul>
+    </div>
+    <div id='div2' class='green'>'hello selectors'</div>
+    <input type='text' id='fname' placeholder='enter first name' onchange="myfunction()">
+    <!--  <script>
+        //query selector returns the first element()
+        var element1 = document.querySelector("li");
+        console.log(element1);
+        //queryselectorall returns all elements
+        var element2 = document.querySelectorAll("li");
+        console.log(element2);
+        var element3 = document.querySelector("ol>li");
+        console.log(element3);
+        //var element4 = document.querySelector("div");
+        //console.log(element4);
+        var element5 = document.querySelectorAll("div");
+        console.log(element5);
+        var element6 = document.querySelector("#div2");
+        console.log(element6);
+        element6.style.color="purple";
+        var element7 = document.querySelector(".green");
+        console.log(element7);
+    </script>-->
+    <script>
+        const arr = [ 1, 2, 3, 4, 5, 6 ];
+        console.log(arr);
+        const strArr = JSON.stringify(arr);
+        console.log(strArr);
+        const myObj = {
+            firstname : 'suriya',
+            lastlast : ' siva mithran'
+        };
+        console.log(myObj);
+        const strjson = JSON.stringify(myObj);
+        console.log(strjson);
+        //json parse; String to JSON
+        const arr1 = JSON.parse(strjson);
+        console.log(arr1);
+        var javastudentlist = {
+            "studentlist" : [ {
+                "name" : "Ajith",
+                "age" : "22"
+            }, {
+                "name" : "Vijay",
+                "age" : "22"
+            }, {
+                "name" : "Tom",
+                "age" : "22"
+            } ],
+            "facultylist" : [ {
+                "name" : "Suriya",
+                "age" : "42"
+            }, {
+                "name" : "Vimal",
+                "age" : "12"
+            }, {
+                "name" : "Jerusha",
+                "age" : "2"
+            } ]
+        };
+        console.log(javastudentlist);
+        function myfunction()
+    {
+            var textElement=document.getElementById("fname");
+            console.log("text changed "+ textElement.value);
+    }
+    </script>
+</body>
+</html>

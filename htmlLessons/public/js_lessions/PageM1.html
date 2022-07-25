@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		/* const cody = new Object();
+		 console.log(cody.living);
+		 cody.living = true;
+		 cody.age = 33;
+		 cody.gender = 33;
+		 cody.gender = 'male';
+		 console.log(cody.living);
+		 console.log(cody.age);
+		 console.log(cody.gender);
+		 cody.getGender = function () { return cody.gender; };
+		 console.log(cody.getGender()); // logs 'male' */
+		/* const myObject = new Object(); // produces an Object() object
+		 myObject['0'] = 'f';
+		 myObject['1'] = 'o';
+		 myObject['2'] = 'o';
+		 console.log(myObject); // logs Object { 0="f", 1="o", 2="o"}
+		 myObject.living = true;
+		 myObject.age = 24;
+		 myObject.gender='male';
+		 console.log(myObject); 
+		 */
+		const Person = function(living, age, gender) {
+			this.living = living;
+			this.age = age;
+			this.gender = gender;
+			this.getGender = function() {
+				return this.gender;
+			};
+		 };
+		// instantiate a Person object and store it in the cody constiable
+	        const cody = new Person(true, 33, 'male');
+	        console.log(cody.living);
+			 console.log(cody.age);
+			 console.log(cody.gender);
+	</script>
+</body>
+</html>
